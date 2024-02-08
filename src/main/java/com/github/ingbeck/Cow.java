@@ -22,6 +22,7 @@ public class Cow extends Animal{
     public void milk() {
         if (isMilkable) {
             System.out.println("Milked " + getName());
+            setMilkable(false);
         } else {
             System.out.println(getName() + " is not milkable");
         }
