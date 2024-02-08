@@ -2,7 +2,7 @@ package com.github.ingbeck;
 import java.util.Objects;
 
 public class Animal {
-    String name;
+    private String name;
     int age;
     String breed;
 
